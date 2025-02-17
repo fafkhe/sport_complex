@@ -11,6 +11,9 @@ import { config } from 'dotenv';
 
 config()
 
+
+console.log(process.env.DB_HOST); 
+
 @Module({
   imports: [
     ConfigModule.forRoot({
